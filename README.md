@@ -4,3 +4,17 @@ There are no tools added to this image, so you will need to install them yoursel
 For details about Kali Linux metapackages, check https://www.kali.org/news/kali-linux-metapackages/
 
 Wed Jan 27 15:03:34 EST 2016
+
+
+## Construct Docker Image
+
+```
+docker build -t offensive-security/kali-linux-docker .
+```
+
+## Run 
+
+```
+docker run -d offensive-security/kali-linux-docker
+```
+
