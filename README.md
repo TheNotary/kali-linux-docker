@@ -4,7 +4,22 @@ There are no tools added to this image, so you will need to install them yoursel
 For details about Kali Linux metapackages, check https://www.kali.org/news/kali-linux-metapackages/
 
 Wed Jan 27 15:03:34 EST 2016
+(touched after the above time)
 
+
+## Run quick if you're in a hurry
+
+```
+# Build the container for the first time
+$  make
+
+# Get into the console so you can start computer sciencing the shit out of ppl
+$  make console
+```
+
+
+
+## OLD DEPRECATED NOTES BELOW
 
 ## Construct Docker Image
 
@@ -12,7 +27,7 @@ Wed Jan 27 15:03:34 EST 2016
 docker build -t offensive-security/kali-linux-docker .
 ```
 
-## Run 
+## Run - aka notes on docker usage
 
 Easily start it up and run it:
 ```
@@ -26,3 +41,6 @@ docker exec -it goofy_goldstine bash
 ```
 
 
+## Get the Bad Guys!
+
+doit!
