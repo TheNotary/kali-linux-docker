@@ -14,7 +14,15 @@ docker build -t offensive-security/kali-linux-docker .
 
 ## Run 
 
+Easily start it up and run it:
 ```
-docker run -d offensive-security/kali-linux-docker
+docker run -it offensive-security/kali-linux-docker bash
 ```
+
+Or boot the container and then exec bash on it when you feel like doing so:
+```
+docker run -t -d offensive-security/kali-linux-docker
+docker exec -it goofy_goldstine bash
+```
+
 
